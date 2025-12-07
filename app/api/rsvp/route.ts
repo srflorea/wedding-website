@@ -5,10 +5,10 @@ export async function POST(request: Request) {
     const body = await request.json();
     const { name, email, guests, attending, dietary, message } = body;
 
-    // Validate required fields - only require name and email if attending is 'yes'
-    if (attending === 'yes' && (!name || !email)) {
+    // Validate required fields - name is always required, email only for 'yes'
+    if (!name || (attending === 'yes' && !email)) {
       return NextResponse.json(
-        { error: 'Name and email are required' },
+        { error: 'Name is required, and email is required when attending' },
         { status: 400 }
       );
     }

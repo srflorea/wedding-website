@@ -22,8 +22,8 @@ export default function RSVPForm() {
     setIsSubmitting(true);
     setError('');
 
-    // Only validate name and email if attending is 'yes'
-    if (formData.attending === 'yes' && (!formData.name || !formData.email)) {
+    // Validate name is always required, email only for 'yes'
+    if (!formData.name || (formData.attending === 'yes' && !formData.email)) {
       setError(t('error'));
       setIsSubmitting(false);
       return;
@@ -131,7 +131,7 @@ export default function RSVPForm() {
               </div>
             </div>
 
-            {formData.attending === 'yes' && (
+            {formData.attending && (
               <>
                 <div className="mb-8">
                   <label htmlFor="name" className="block text-gray-800 font-bold text-sm uppercase tracking-[0.15em] mb-3">
@@ -147,53 +147,57 @@ export default function RSVPForm() {
                   />
                 </div>
 
-                <div className="mb-8">
-                  <label htmlFor="email" className="block text-gray-800 font-bold text-sm uppercase tracking-[0.15em] mb-3">
-                    {t('email')} *
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    className="w-full px-4 py-3 border border-gray-300 focus:ring-1 focus:ring-accent focus:border-accent transition-colors"
-                  />
-                </div>
+                {formData.attending === 'yes' && (
+                  <>
+                    <div className="mb-8">
+                      <label htmlFor="email" className="block text-gray-800 font-bold text-sm uppercase tracking-[0.15em] mb-3">
+                        {t('email')} *
+                      </label>
+                      <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        value={formData.email}
+                        onChange={handleChange}
+                        className="w-full px-4 py-3 border border-gray-300 focus:ring-1 focus:ring-accent focus:border-accent transition-colors"
+                      />
+                    </div>
 
-                <div className="mb-8">
-                  <label htmlFor="guests" className="block text-gray-800 font-bold text-sm uppercase tracking-[0.15em] mb-3">
-                    {t('guests')}
-                  </label>
-                  <select
-                    id="guests"
-                    name="guests"
-                    value={formData.guests}
-                    onChange={handleChange}
-                    className="w-full px-4 py-3 border border-gray-300 focus:ring-1 focus:ring-accent focus:border-accent transition-colors"
-                  >
-                    {[1, 2, 3, 4, 5].map((num) => (
-                      <option key={num} value={num}>
-                        {num}
-                      </option>
-                    ))}
-                  </select>
-                </div>
+                    <div className="mb-8">
+                      <label htmlFor="guests" className="block text-gray-800 font-bold text-sm uppercase tracking-[0.15em] mb-3">
+                        {t('guests')}
+                      </label>
+                      <select
+                        id="guests"
+                        name="guests"
+                        value={formData.guests}
+                        onChange={handleChange}
+                        className="w-full px-4 py-3 border border-gray-300 focus:ring-1 focus:ring-accent focus:border-accent transition-colors"
+                      >
+                        {[1, 2, 3, 4, 5].map((num) => (
+                          <option key={num} value={num}>
+                            {num}
+                          </option>
+                        ))}
+                      </select>
+                    </div>
 
-                <div className="mb-8">
-                  <label htmlFor="dietary" className="block text-gray-800 font-bold text-sm uppercase tracking-[0.15em] mb-3">
-                    {t('dietary')}
-                  </label>
-                  <input
-                    type="text"
-                    id="dietary"
-                    name="dietary"
-                    value={formData.dietary}
-                    onChange={handleChange}
-                    placeholder={t('dietaryPlaceholder')}
-                    className="w-full px-4 py-3 border border-gray-300 focus:ring-1 focus:ring-accent focus:border-accent transition-colors"
-                  />
-                </div>
+                    <div className="mb-8">
+                      <label htmlFor="dietary" className="block text-gray-800 font-bold text-sm uppercase tracking-[0.15em] mb-3">
+                        {t('dietary')}
+                      </label>
+                      <input
+                        type="text"
+                        id="dietary"
+                        name="dietary"
+                        value={formData.dietary}
+                        onChange={handleChange}
+                        placeholder={t('dietaryPlaceholder')}
+                        className="w-full px-4 py-3 border border-gray-300 focus:ring-1 focus:ring-accent focus:border-accent transition-colors"
+                      />
+                    </div>
+                  </>
+                )}
 
                 <div className="mb-10">
                   <label htmlFor="message" className="block text-gray-800 font-bold text-sm uppercase tracking-[0.15em] mb-3">
@@ -210,23 +214,6 @@ export default function RSVPForm() {
                   />
                 </div>
               </>
-            )}
-
-            {formData.attending === 'no' && (
-              <div className="mb-10">
-                <label htmlFor="message" className="block text-gray-800 font-bold text-sm uppercase tracking-[0.15em] mb-3">
-                  {t('message')}
-                </label>
-                <textarea
-                  id="message"
-                  name="message"
-                  rows={4}
-                  value={formData.message}
-                  onChange={handleChange}
-                  placeholder={t('messagePlaceholder')}
-                  className="w-full px-4 py-3 border border-gray-300 focus:ring-1 focus:ring-accent focus:border-accent transition-colors"
-                />
-              </div>
             )}
 
             <button
