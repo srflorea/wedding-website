@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "ourStory": "Náš Příběh",
+    "location": "Místo & Doprava",
+    "rsvp": "Potvrdit Účast"
+  },
+  "hero": {
+    "title": "Ștefan Răzvan & Kristýna",
+    "subtitle": "\"Řekneme si ANO\"",
+    "date": "11. července 2026",
+    "venue": "Mlýn Davídkov, Praha"
+  },
+  "countdown": {
+    "title": "Odpočítávání do Velkého Dne",
+    "days": "Dní",
+    "hours": "Hodin",
+    "minutes": "Minut",
+    "seconds": "Sekund"
+  },
+  "story": {
+    "title": "Náš Příběh",
+    "content": "Dvě srdce z různých světů - Rumunska a České republiky - se potkala a vytvořila něco krásného. Naše společná cesta byla plná lásky, smíchu a nespočetných dobrodružství napříč hranicemi. Nyní jsme připraveni začít další kapitolu našich životů společně."
+  },
+  "location": {
+    "title": "Místo & Doprava",
+    "venueName": "Mlýn Davídkov",
+    "venueDescription": "Krásný historický mlýn zasazený do malebné české krajiny nedaleko Prahy. Toto kouzelné místo kombinuje rustikální šarm s elegantní sofistikovaností a poskytuje perfektní prostředí pro náš velký den.",
+    "address": "Adresa",
+    "addressDetails": "Hryzely 36, 281 63 Barchovice-Zásmuky, Česko",
+    "gettingThere": "Jak se tam dostat",
+    "fromPrague": "Z Prahy",
+    "fromPragueDetails": "Místo se nachází přibližně 20 km jihozápadně od centra Prahy. Doporučujeme pronajmout si auto nebo domluvit dopravu s ostatními hosty. K dispozici jsou také taxi služby z Prahy.",
+    "fromAirport": "Z Letiště",
+    "fromAirportDetails": "Letiště Václava Havla Praha (PRG) je nejbližší mezinárodní letiště, přibližně 30 km od místa konání. Cesta trvá přibližně 30-40 minut.",
+    "accommodation": "Ubytování",
+    "accommodationDetails": "Doporučujeme rezervovat ubytování v Praze a domluvit si dopravu na místo konání. Praha nabízí širokou škálu hotelů a apartmánů pro všechny rozpočty."
+  },
+  "rsvp": {
+    "title": "Potvrdit Účast",
+    "description": "Dejte nám prosím vědět, zda se k nám můžete připojit v náš velký den",
+    "name": "Celé Jméno",
+    "email": "Email",
+    "guests": "Počet Hostů",
+    "attending": "Zúčastníte se?",
+    "yes": "Ano, budu tam!",
+    "no": "Bohužel se nemůžu zúčastnit",
+    "dietary": "Stravovací Požadavky",
+    "dietaryPlaceholder": "Dejte nám prosím vědět o jakýchkoli stravovacích omezeních nebo alergiích",
+    "message": "Vzkaz pro Nás",
+    "messagePlaceholder": "Sdílejte své přání nebo jakékoli otázky, které máte",
+    "submit": "Odeslat Potvrzení",
+    "success": "Děkujeme za potvrzení!",
+    "error": "Vyplňte prosím všechna povinná pole"
+  },
+  "footer": {
+    "seeYouThere": "Nemůžeme se dočkat, až s vámi oslavíme!"
+  }
+}

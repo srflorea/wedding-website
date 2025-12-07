@@ -1,36 +1,125 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ștefan & Kristýna Wedding Website
+
+A beautiful multilingual wedding website built with Next.js, TypeScript, and Tailwind CSS.
+
+## Features
+
+- **Multilingual Support**: Romanian, Czech, and English translations
+- **Countdown Timer**: Real-time countdown to the wedding day
+- **Hero Section**: Beautiful gradient header with names and date
+- **Our Story**: Personal story section with country flags
+- **Location & Travel**: Detailed venue information and travel directions
+- **RSVP Form**: Interactive form for guests to confirm attendance
+- **Responsive Design**: Mobile-friendly layout that works on all devices
+
+## Wedding Details
+
+- **Couple**: Ștefan & Kristýna
+- **Date**: July 11th, 2026
+- **Venue**: Mlýn Davídkov, near Prague, Czech Republic
 
 ## Getting Started
 
-First, run the development server:
+### Installation
+
+```bash
+npm install
+```
+
+### Development
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the website.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+wedding-website/
+├── app/
+│   ├── [locale]/           # Locale-based routing
+│   │   ├── layout.tsx      # Main layout with i18n provider
+│   │   └── page.tsx        # Home page
+│   └── globals.css         # Global styles
+├── components/
+│   ├── Countdown.tsx       # Countdown timer component
+│   ├── Hero.tsx           # Hero section
+│   ├── LanguageSelector.tsx # Language switcher
+│   ├── Location.tsx       # Location and travel info
+│   ├── OurStory.tsx       # Our story section
+│   └── RSVPForm.tsx       # RSVP form
+├── messages/
+│   ├── en.json            # English translations
+│   ├── ro.json            # Romanian translations
+│   └── cs.json            # Czech translations
+├── i18n.ts                # i18n configuration
+└── middleware.ts          # Next.js middleware for locale detection
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Customization
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Update Translations
 
-## Deploy on Vercel
+Edit the JSON files in the `messages/` directory to customize text content:
+- `messages/en.json` - English
+- `messages/ro.json` - Romanian (Română)
+- `messages/cs.json` - Czech (Čeština)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Change Wedding Date
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Update the date in `components/Countdown.tsx`:
+```typescript
+const weddingDate = new Date('2026-07-11T15:00:00');
+```
+
+### Update Location
+
+Modify the location details in the translation files and the Google Maps link in `components/Location.tsx`.
+
+### RSVP Form Integration
+
+Currently, the RSVP form logs submissions to the console. To integrate with a backend:
+
+1. Create an API route in `app/api/rsvp/route.ts`
+2. Update the form submission handler in `components/RSVPForm.tsx`
+3. Consider using services like:
+   - Google Forms
+   - Formspree
+   - EmailJS
+   - Custom backend API
+
+## Technologies Used
+
+- **Next.js 16** - React framework with App Router
+- **TypeScript** - Type safety
+- **Tailwind CSS** - Utility-first CSS framework
+- **next-intl** - Internationalization for Next.js
+- **Google Fonts** - Cormorant Garamond & Montserrat
+
+## Deployment
+
+Deploy to Vercel (recommended):
+
+```bash
+npm install -g vercel
+vercel
+```
+
+Or deploy to any platform that supports Next.js.
+
+## License
+
+This project is created for personal use.
+
+---
+
+Made with love for Ștefan & Kristýna

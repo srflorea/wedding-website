@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "ourStory": "Povestea Noastră",
+    "location": "Locație & Călătorie",
+    "rsvp": "Confirmă Prezența"
+  },
+  "hero": {
+    "title": "Ștefan Răzvan & Kristýna",
+    "subtitle": "\"Vom spune DA\"",
+    "date": "11 Iulie 2026",
+    "venue": "Mlýn Davídkov, Praga"
+  },
+  "countdown": {
+    "title": "Numărătoare Inversă până în Ziua Mare",
+    "days": "Zile",
+    "hours": "Ore",
+    "minutes": "minute",
+    "seconds": "Secunde"
+  },
+  "story": {
+    "title": "Povestea Noastră",
+    "content": "Două inimi din lumi diferite - România și Republica Cehă - s-au întâlnit și au creat ceva frumos. Călătoria noastră împreună a fost plină de dragoste, râsete și nenumărate aventuri peste granițe. Acum suntem gata să începem următorul capitol al vieților noastre împreună."
+  },
+  "location": {
+    "title": "Locație & Călătorie",
+    "venueName": "Mlýn Davídkov",
+    "venueDescription": "O moară istorică frumoasă, situată în pitoreasca zonă rurală cehă, aproape de Praga. Acest loc fermecător combină farmecul rustic cu eleganța rafinată, oferind cadrul perfect pentru ziua noastră specială.",
+    "address": "Adresă",
+    "addressDetails": "Hryzely 36, 281 63 Barchovice-Zásmuky, Cehia",
+    "gettingThere": "Cum Ajungi",
+    "fromPrague": "Din Praga",
+    "fromPragueDetails": "Locația se află la aproximativ 20 km sud-vest de centrul Pragăi. Recomandăm să închiriați o mașină sau să aranjați transportul cu alți invitați. Serviciile de taxi sunt disponibile din Praga.",
+    "fromAirport": "De la Aeroport",
+    "fromAirportDetails": "Aeroportul Václav Havel Praga (PRG) este cel mai apropiat aeroport internațional, la aproximativ 30 km de locație. Permiteți aproximativ 30-40 de minute pentru călătorie.",
+    "accommodation": "Cazare",
+    "accommodationDetails": "Vă recomandăm să rezervați cazare în Praga și să aranjați transportul către locație. Praga oferă o gamă largă de hoteluri și apartamente pentru toate bugetele."
+  },
+  "rsvp": {
+    "title": "Confirmă Prezența",
+    "description": "Vă rugăm să ne anunțați dacă puteți să vă alăturați nouă în ziua noastră specială",
+    "name": "Nume Complet",
+    "email": "Adresă Email",
+    "guests": "Număr de Invitați",
+    "attending": "Vei participa?",
+    "yes": "Da, voi fi acolo!",
+    "no": "Din păcate, nu pot veni",
+    "dietary": "Preferințe Alimentare",
+    "dietaryPlaceholder": "Vă rugăm să ne anunțați despre orice restricții alimentare sau alergii",
+    "message": "Mesaj pentru Noi",
+    "messagePlaceholder": "Împărtășește-ne urările tale sau orice întrebări ai putea avea",
+    "submit": "Trimite Confirmarea",
+    "success": "Mulțumim pentru confirmare!",
+    "error": "Te rugăm să completezi toate câmpurile obligatorii"
+  },
+  "footer": {
+    "seeYouThere": "Abia așteptăm să sărbătorim împreună cu voi!"
+  }
+}

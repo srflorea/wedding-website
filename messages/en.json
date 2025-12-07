@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "ourStory": "Our Story",
+    "location": "Location & Travel",
+    "rsvp": "RSVP"
+  },
+  "hero": {
+    "title": "Ștefan Răzvan & Kristýna",
+    "subtitle": "\"We will say YES\"",
+    "date": "July 11th, 2026",
+    "venue": "Mlýn Davídkov, Prague"
+  },
+  "countdown": {
+    "title": "Countdown to the Big Day",
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds"
+  },
+  "story": {
+    "title": "Our Story",
+    "content": "Two hearts from different worlds - Romania and Czech Republic - found each other and created something beautiful. Our journey together has been filled with love, laughter, and countless adventures across borders. Now we're ready to start the next chapter of our lives together."
+  },
+  "location": {
+    "title": "Location & Travel",
+    "venueName": "Mlýn Davídkov",
+    "venueDescription": "A beautiful historic mill nestled in the picturesque Czech countryside near Prague. This enchanting venue combines rustic charm with elegant sophistication, providing the perfect setting for our special day.",
+    "address": "Address",
+    "addressDetails": "Hryzely 36, 281 63 Barchovice-Zásmuky, Czechia",
+    "gettingThere": "Getting There",
+    "fromPrague": "From Prague",
+    "fromPragueDetails": "The venue is approximately 20 km southwest of Prague city center. We recommend renting a car or arranging transportation with other guests. Taxi services are also available from Prague.",
+    "fromAirport": "From Airport",
+    "fromAirportDetails": "Václav Havel Airport Prague (PRG) is the nearest international airport, approximately 30 km from the venue. Allow about 30-40 minutes for the journey.",
+    "accommodation": "Accommodation",
+    "accommodationDetails": "We recommend booking accommodation in Prague and arranging transportation to the venue. Prague offers a wide range of hotels and apartments to suit all budgets."
+  },
+  "rsvp": {
+    "title": "RSVP",
+    "description": "Please let us know if you can join us for our special day",
+    "name": "Full Name",
+    "email": "Email Address",
+    "guests": "Number of Guests",
+    "attending": "Will you be attending?",
+    "yes": "Yes, I'll be there!",
+    "no": "Unfortunately, I can't make it",
+    "dietary": "Dietary Requirements",
+    "dietaryPlaceholder": "Please let us know about any dietary restrictions or allergies",
+    "message": "Message for the Couple",
+    "messagePlaceholder": "Share your wishes or any questions you may have",
+    "submit": "Submit RSVP",
+    "success": "Thank you for your RSVP!",
+    "error": "Please fill in all required fields"
+  },
+  "footer": {
+    "seeYouThere": "We can't wait to celebrate with you!"
+  }
+}
