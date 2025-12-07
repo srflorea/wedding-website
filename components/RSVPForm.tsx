@@ -9,8 +9,11 @@ export default function RSVPForm() {
     name: '',
     email: '',
     guests: '1',
+    guestNames: '',
     attending: '',
+    arrivalDay: '',
     dietary: '',
+    songSuggestion: '',
     message: ''
   });
   const [submitted, setSubmitted] = useState(false);
@@ -51,8 +54,11 @@ export default function RSVPForm() {
         name: '',
         email: '',
         guests: '1',
+        guestNames: '',
         attending: '',
+        arrivalDay: '',
         dietary: '',
+        songSuggestion: '',
         message: ''
       });
 
@@ -182,17 +188,79 @@ export default function RSVPForm() {
                       </select>
                     </div>
 
+                    {Number(formData.guests) > 1 && (
+                      <div className="mb-8">
+                        <label htmlFor="guestNames" className="block text-gray-800 font-bold text-sm uppercase tracking-[0.15em] mb-3">
+                          {t('guestNames')}
+                        </label>
+                        <textarea
+                          id="guestNames"
+                          name="guestNames"
+                          rows={3}
+                          value={formData.guestNames}
+                          onChange={handleChange}
+                          placeholder={t('guestNamesPlaceholder')}
+                          className="w-full px-4 py-3 border border-gray-300 focus:ring-1 focus:ring-accent focus:border-accent transition-colors"
+                        />
+                      </div>
+                    )}
+
+                    <div className="mb-8">
+                      <label className="block text-gray-800 font-bold text-sm uppercase tracking-[0.15em] mb-4">
+                        {t('arrivalDay')}
+                      </label>
+                      <div className="space-y-3">
+                        <label className="flex items-center">
+                          <input
+                            type="radio"
+                            name="arrivalDay"
+                            value="friday"
+                            checked={formData.arrivalDay === 'friday'}
+                            onChange={handleChange}
+                            className="mr-3 w-4 h-4 text-accent accent-accent"
+                          />
+                          <span className="text-gray-700">{t('friday')}</span>
+                        </label>
+                        <label className="flex items-center">
+                          <input
+                            type="radio"
+                            name="arrivalDay"
+                            value="saturday"
+                            checked={formData.arrivalDay === 'saturday'}
+                            onChange={handleChange}
+                            className="mr-3 w-4 h-4 text-accent accent-accent"
+                          />
+                          <span className="text-gray-700">{t('saturday')}</span>
+                        </label>
+                      </div>
+                    </div>
+
                     <div className="mb-8">
                       <label htmlFor="dietary" className="block text-gray-800 font-bold text-sm uppercase tracking-[0.15em] mb-3">
                         {t('dietary')}
                       </label>
-                      <input
-                        type="text"
+                      <textarea
                         id="dietary"
                         name="dietary"
+                        rows={3}
                         value={formData.dietary}
                         onChange={handleChange}
                         placeholder={t('dietaryPlaceholder')}
+                        className="w-full px-4 py-3 border border-gray-300 focus:ring-1 focus:ring-accent focus:border-accent transition-colors"
+                      />
+                    </div>
+
+                    <div className="mb-8">
+                      <label htmlFor="songSuggestion" className="block text-gray-800 font-bold text-sm uppercase tracking-[0.15em] mb-3">
+                        {t('songSuggestion')}
+                      </label>
+                      <input
+                        type="text"
+                        id="songSuggestion"
+                        name="songSuggestion"
+                        value={formData.songSuggestion}
+                        onChange={handleChange}
+                        placeholder={t('songSuggestionPlaceholder')}
                         className="w-full px-4 py-3 border border-gray-300 focus:ring-1 focus:ring-accent focus:border-accent transition-colors"
                       />
                     </div>

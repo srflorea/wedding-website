@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server';
 export async function POST(request: Request) {
   try {
     const body = await request.json();
-    const { name, email, guests, attending, dietary, message } = body;
+    const { name, email, guests, guestNames, attending, arrivalDay, dietary, songSuggestion, message } = body;
 
     // Validate required fields - name is always required, email only for 'yes'
     if (!name || (attending === 'yes' && !email)) {
@@ -47,8 +47,11 @@ export async function POST(request: Request) {
           Name: name || '',
           Email: email || '',
           Guests: attending === 'yes' ? Number(guests) : 0,
+          'Guest Names': guestNames || '',
           Attending: attending,
+          'Arrival Day': arrivalDay === 'friday' ? 'Friday' : arrivalDay === 'saturday' ? 'Saturday' : '',
           'Dietary Requirements': dietary || '',
+          'Song Suggestion': songSuggestion || '',
           Message: message || '',
           'Submitted At': new Date().toISOString().split('T')[0],
         },
