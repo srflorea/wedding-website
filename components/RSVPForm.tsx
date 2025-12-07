@@ -7,7 +7,6 @@ export default function RSVPForm() {
   const t = useTranslations('rsvp');
   const [formData, setFormData] = useState({
     name: '',
-    email: '',
     guests: '1',
     guestNames: '',
     attending: '',
@@ -25,8 +24,8 @@ export default function RSVPForm() {
     setIsSubmitting(true);
     setError('');
 
-    // Validate name is always required, email only for 'yes'
-    if (!formData.name || (formData.attending === 'yes' && !formData.email)) {
+    // Validate name is always required
+    if (!formData.name) {
       setError(t('error'));
       setIsSubmitting(false);
       return;
@@ -52,7 +51,6 @@ export default function RSVPForm() {
       setSubmitted(true);
       setFormData({
         name: '',
-        email: '',
         guests: '1',
         guestNames: '',
         attending: '',
@@ -155,20 +153,6 @@ export default function RSVPForm() {
 
                 {formData.attending === 'yes' && (
                   <>
-                    <div className="mb-8">
-                      <label htmlFor="email" className="block text-gray-800 font-bold text-sm uppercase tracking-[0.15em] mb-3">
-                        {t('email')} *
-                      </label>
-                      <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        value={formData.email}
-                        onChange={handleChange}
-                        className="w-full px-4 py-3 border border-gray-300 focus:ring-1 focus:ring-accent focus:border-accent transition-colors"
-                      />
-                    </div>
-
                     <div className="mb-8">
                       <label htmlFor="guests" className="block text-gray-800 font-bold text-sm uppercase tracking-[0.15em] mb-3">
                         {t('guests')}

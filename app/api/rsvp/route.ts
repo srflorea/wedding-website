@@ -3,12 +3,12 @@ import { NextResponse } from 'next/server';
 export async function POST(request: Request) {
   try {
     const body = await request.json();
-    const { name, email, guests, guestNames, attending, arrivalDay, dietary, songSuggestion, message } = body;
+    const { name, guests, guestNames, attending, arrivalDay, dietary, songSuggestion, message } = body;
 
-    // Validate required fields - name is always required, email only for 'yes'
-    if (!name || (attending === 'yes' && !email)) {
+    // Validate required fields - name is always required
+    if (!name) {
       return NextResponse.json(
-        { error: 'Name is required, and email is required when attending' },
+        { error: 'Name is required' },
         { status: 400 }
       );
     }
@@ -45,7 +45,6 @@ export async function POST(request: Request) {
       body: JSON.stringify({
         fields: {
           Name: name || '',
-          Email: email || '',
           Guests: attending === 'yes' ? Number(guests) : 0,
           'Guest Names': guestNames || '',
           Attending: attending,

@@ -1,5 +1,4 @@
 import Hero from '@/components/Hero';
-import Countdown from '@/components/Countdown';
 import OurStory from '@/components/OurStory';
 import Location from '@/components/Location';
 import RSVPForm from '@/components/RSVPForm';
@@ -11,7 +10,6 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       <Hero />
-      <Countdown />
       <OurStory />
       <Location />
       <RSVPForm />

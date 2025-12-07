@@ -1,8 +1,12 @@
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import Image from 'next/image';
 
 export default function Location() {
   const t = useTranslations('location');
+  const locale = useLocale();
+
+  // Use English version for en and ro, Czech version for cs
+  const venueUrl = locale === 'cs' ? 'https://www.mlyndavidkov.cz' : 'https://www.mlyndavidkov.cz/en';
 
   return (
     <section id="location" className="py-24 bg-white">
@@ -18,6 +22,15 @@ export default function Location() {
           <p className="text-gray-600 text-lg mb-8 leading-relaxed font-light">
             {t('venueDescription')}
           </p>
+
+          <a
+            href={venueUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block border-2 border-accent text-accent px-8 md:px-10 py-3 uppercase tracking-[0.15em] md:tracking-[0.2em] font-bold text-xs md:text-sm transition-all duration-300 hover:bg-accent hover:text-white mb-8"
+          >
+            {t('venueWebsite')}
+          </a>
 
           <div className="relative w-full h-72 md:h-[28rem] mb-8 overflow-hidden">
             <Image
@@ -66,6 +79,16 @@ export default function Location() {
               {t('fromAirportDetails')}
             </p>
           </div>
+        </div>
+
+        <div className="bg-white border border-accent/20 p-10 mb-8">
+          <div className="text-5xl mb-6">🚐</div>
+          <h3 className="text-2xl font-serif text-gray-800 mb-5">
+            {t('transportation')}
+          </h3>
+          <p className="text-gray-600 leading-relaxed font-light">
+            {t('transportationDetails')}
+          </p>
         </div>
 
         <div className="bg-white border border-accent/20 p-10">

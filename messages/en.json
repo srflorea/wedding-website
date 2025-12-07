@@ -8,7 +8,9 @@
     "title": "Ștefan Răzvan & Kristýna",
     "subtitle": "\"We will say YES\"",
     "date": "July 11th, 2026",
-    "venue": "Mlýn Davídkov, Prague"
+    "countdown": "{days} days, {hours} hours, {minutes} minutes and {seconds} seconds until our special day!",
+    "venue": "Mlýn Davídkov, Prague",
+    "rsvpDeadline": "Please RSVP before February 28th, 2026"
   },
   "countdown": {
     "title": "Countdown to the Big Day",
@@ -25,19 +27,22 @@
     "title": "Location & Travel",
     "venueName": "Mlýn Davídkov",
     "venueDescription": "A beautiful historic mill nestled in the picturesque Czech countryside near Prague. This enchanting venue combines rustic charm with elegant sophistication, providing the perfect setting for our special day.",
+    "venueWebsite": "Visit Venue Website",
     "address": "Address",
     "addressDetails": "Hryzely 36, 281 63 Barchovice-Zásmuky, Czechia",
     "gettingThere": "Getting There",
     "fromPrague": "From Prague",
-    "fromPragueDetails": "The venue is approximately 20 km southwest of Prague city center. We recommend renting a car or arranging transportation with other guests. Taxi services are also available from Prague.",
+    "fromPragueDetails": "The venue is approximately 20 km southwest of Prague city center. There is no public transport available.",
     "fromAirport": "From Airport",
     "fromAirportDetails": "Václav Havel Airport Prague (PRG) is the nearest international airport, approximately 30 km from the venue. Allow about 30-40 minutes for the journey.",
+    "transportation": "Transportation",
+    "transportationDetails": "For those that need transport, we will have a minivan which will run between Prague city center, the airport, and the venue on Friday afternoon and Saturday morning. Just make sure that you let us know in advance about your plans. If you want more flexibility, you could come by car (personal or rented).",
     "accommodation": "Accommodation",
-    "accommodationDetails": "We recommend booking accommodation in Prague and arranging transportation to the venue. Prague offers a wide range of hotels and apartments to suit all budgets."
+    "accommodationDetails": "We will provide accommodation on Saturday night at the venue. We'll be there starting Friday, so if you'd like to join us on Friday as well, please let us know and we can arrange accommodation for you."
   },
   "rsvp": {
     "title": "RSVP",
-    "description": "Please let us know if you can join us for our special day",
+    "description": "Please let us know before 28th of February if you can join us for our special day",
     "name": "Full Name",
     "email": "Email Address",
     "guests": "Number of Guests",

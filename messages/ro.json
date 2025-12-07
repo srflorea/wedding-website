@@ -8,7 +8,9 @@
     "title": "Ștefan Răzvan & Kristýna",
     "subtitle": "\"Vom spune DA\"",
     "date": "11 Iulie 2026",
-    "venue": "Mlýn Davídkov, Praga"
+    "countdown": "{days} zile, {hours} ore, {minutes} minute și {seconds} secunde până la ziua noastră specială!",
+    "venue": "Mlýn Davídkov, Praga",
+    "rsvpDeadline": "Vă rugăm să confirmați prezența înainte de 28 februarie 2026"
   },
   "countdown": {
     "title": "Numărătoare Inversă până în Ziua Mare",
@@ -25,19 +27,22 @@
     "title": "Locație & Călătorie",
     "venueName": "Mlýn Davídkov",
     "venueDescription": "O moară istorică frumoasă, situată în pitoreasca zonă rurală cehă, aproape de Praga. Acest loc fermecător combină farmecul rustic cu eleganța rafinată, oferind cadrul perfect pentru ziua noastră specială.",
+    "venueWebsite": "Vizitează Website-ul Locației",
     "address": "Adresă",
     "addressDetails": "Hryzely 36, 281 63 Barchovice-Zásmuky, Cehia",
     "gettingThere": "Cum Ajungi",
     "fromPrague": "Din Praga",
-    "fromPragueDetails": "Locația se află la aproximativ 20 km sud-vest de centrul Pragăi. Recomandăm să închiriați o mașină sau să aranjați transportul cu alți invitați. Serviciile de taxi sunt disponibile din Praga.",
+    "fromPragueDetails": "Locația se află la aproximativ 20 km sud-vest de centrul Pragăi. Nu există transport public disponibil.",
     "fromAirport": "De la Aeroport",
     "fromAirportDetails": "Aeroportul Václav Havel Praga (PRG) este cel mai apropiat aeroport internațional, la aproximativ 30 km de locație. Permiteți aproximativ 30-40 de minute pentru călătorie.",
+    "transportation": "Transport",
+    "transportationDetails": "Pentru cei care au nevoie de transport, vom avea un microbuz care va face curse între centrul Pragăi, aeroport și locație vineri după-amiază și sâmbătă dimineața. Asigurați-vă că ne anunțați din timp despre planurile voastre. Dacă doriți mai multă flexibilitate, puteți veni cu mașina (personală sau închiriată).",
     "accommodation": "Cazare",
-    "accommodationDetails": "Vă recomandăm să rezervați cazare în Praga și să aranjați transportul către locație. Praga oferă o gamă largă de hoteluri și apartamente pentru toate bugetele."
+    "accommodationDetails": "Vom oferi cazare sâmbătă seara la locație. Vom fi acolo începând de vineri, așa că dacă doriți să vă alăturați nouă și vineri, vă rugăm să ne anunțați și vom aranja cazare pentru voi."
   },
   "rsvp": {
     "title": "Confirmă Prezența",
-    "description": "Vă rugăm să ne anunțați dacă puteți să vă alăturați nouă în ziua noastră specială",
+    "description": "Vă rugăm să ne anunțați înainte de 28 februarie dacă puteți să vă alăturați nouă în ziua noastră specială",
     "name": "Nume Complet",
     "email": "Adresă Email",
     "guests": "Număr de Invitați",

@@ -8,7 +8,9 @@
     "title": "Ștefan Răzvan & Kristýna",
     "subtitle": "\"Řekneme si ANO\"",
     "date": "11. července 2026",
-    "venue": "Mlýn Davídkov, Praha"
+    "countdown": "{days} dní, {hours} hodin, {minutes} minut a {seconds} sekund do našeho velkého dne!",
+    "venue": "Mlýn Davídkov, Praha",
+    "rsvpDeadline": "Potvrďte prosím účast před 28. únorem 2026"
   },
   "countdown": {
     "title": "Odpočítávání do Velkého Dne",
@@ -25,19 +27,22 @@
     "title": "Místo & Doprava",
     "venueName": "Mlýn Davídkov",
     "venueDescription": "Krásný historický mlýn zasazený do malebné české krajiny nedaleko Prahy. Toto kouzelné místo kombinuje rustikální šarm s elegantní sofistikovaností a poskytuje perfektní prostředí pro náš velký den.",
+    "venueWebsite": "Navštivte webové stránky místa konání",
     "address": "Adresa",
     "addressDetails": "Hryzely 36, 281 63 Barchovice-Zásmuky, Česko",
     "gettingThere": "Jak se tam dostat",
     "fromPrague": "Z Prahy",
-    "fromPragueDetails": "Místo se nachází přibližně 20 km jihozápadně od centra Prahy. Doporučujeme pronajmout si auto nebo domluvit dopravu s ostatními hosty. K dispozici jsou také taxi služby z Prahy.",
+    "fromPragueDetails": "Místo se nachází přibližně 20 km jihozápadně od centra Prahy. Veřejná doprava není k dispozici.",
     "fromAirport": "Z Letiště",
     "fromAirportDetails": "Letiště Václava Havla Praha (PRG) je nejbližší mezinárodní letiště, přibližně 30 km od místa konání. Cesta trvá přibližně 30-40 minut.",
+    "transportation": "Doprava",
+    "transportationDetails": "Pro ty, kteří potřebují dopravu, budeme mít minivan, který pojede mezi centrem Prahy, letištěm a místem konání v pátek odpoledne a v sobotu ráno. Jen se ujistěte, že nám předem dáte vědět o svých plánech. Pokud chcete větší flexibilitu, můžete přijet autem (vlastním nebo pronajatým).",
     "accommodation": "Ubytování",
-    "accommodationDetails": "Doporučujeme rezervovat ubytování v Praze a domluvit si dopravu na místo konání. Praha nabízí širokou škálu hotelů a apartmánů pro všechny rozpočty."
+    "accommodationDetails": "Poskytneme ubytování v sobotu večer na místě konání. Budeme tam od pátku, takže pokud se k nám chcete připojit i v pátek, dejte nám prosím vědět a můžeme pro vás zajistit ubytování."
   },
   "rsvp": {
     "title": "Potvrdit Účast",
-    "description": "Dejte nám prosím vědět, zda se k nám můžete připojit v náš velký den",
+    "description": "Dejte nám prosím vědět před 28. únorem, zda se k nám můžete připojit v náš velký den",
     "name": "Celé Jméno",
     "email": "Email",
     "guests": "Počet Hostů",
