@@ -1,17 +1,17 @@
 import Header from '@/components/Header';
-import Hero from '@/components/Hero';
+import Home from '@/components/Home';
 import OurStory from '@/components/OurStory';
 import Location from '@/components/Location';
 import RSVPForm from '@/components/RSVPForm';
 import { useTranslations } from 'next-intl';
 
-export default function Home() {
+export default function Page() {
   const t = useTranslations('footer');
 
   return (
     <main className="min-h-screen">
       <Header />
-      <Hero />
+      <Home />
       <OurStory />
       <Location />
       <RSVPForm />

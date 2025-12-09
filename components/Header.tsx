@@ -5,7 +5,7 @@ import LanguageSelector from './LanguageSelector';
 import { useState, useEffect } from 'react';
 
 export default function Header() {
-  const t = useTranslations('hero');
+  const t = useTranslations('home');
   const countdown = useTranslations('countdown');
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
   const [isScrolled, setIsScrolled] = useState(false);
@@ -53,7 +53,7 @@ export default function Header() {
           <div className="flex items-center justify-between">
             {/* Left: Names */}
             <div className="flex-1">
-              <a href="#hero" className="text-xl md:text-2xl font-script text-accent hover:text-accent/80 transition-colors">
+              <a href="#home" className="text-xl md:text-2xl font-script text-accent hover:text-accent/80 transition-colors">
                 Ștefan & Kristýna
               </a>
             </div>
