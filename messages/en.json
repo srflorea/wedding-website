@@ -10,7 +10,7 @@
     "date": "July 11th, 2026",
     "countdown": "{days} days, {hours} hours, {minutes} minutes and {seconds} seconds until our special day!",
     "venue": "Mlýn Davídkov, Prague",
-    "rsvpDeadline": "Please RSVP before February 28th, 2026"
+    "rsvpDeadline": "Please RSVP until February 28th, 2026"
   },
   "countdown": {
     "title": "Countdown to the Big Day",
@@ -36,13 +36,13 @@
     "fromAirport": "From Airport",
     "fromAirportDetails": "Václav Havel Airport Prague (PRG) is the nearest international airport, approximately 30 km from the venue. Allow about 30-40 minutes for the journey.",
     "transportation": "Transportation",
-    "transportationDetails": "For those that need transport, we will have a minivan which will run between Prague city center, the airport, and the venue on Friday afternoon and Saturday morning. Just make sure that you let us know in advance about your plans. If you want more flexibility, you could come by car (personal or rented).",
+    "transportationDetails": "For those that fly in and need transport from the airport, we will have a minivan which will run between the airport and the venue on Friday afternoon and Saturday morning. Just make sure that you let us know in advance about your plans. For more flexibility to explore the beautiful Czech countryside at your own pace, we recommend renting a car at the airport.",
     "accommodation": "Accommodation",
-    "accommodationDetails": "We will provide accommodation on Saturday night at the venue. We'll be there starting Friday, so if you'd like to join us on Friday as well, please let us know and we can arrange accommodation for you."
+    "accommodationDetails": "We will provide accommodation on Saturday night at the venue. We'll be there starting Friday, so if you'd like to join us on Friday as well, please let us know and we can arrange accommodation for you. Parking is available at the venue for everyone."
   },
   "rsvp": {
     "title": "RSVP",
-    "description": "Please let us know before 28th of February if you can join us for our special day",
+    "description": "Please let us know until 28th of February if you can join us for our special day",
     "name": "Full Name",
     "email": "Email Address",
     "guests": "Number of Guests",

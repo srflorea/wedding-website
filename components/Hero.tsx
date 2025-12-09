@@ -1,43 +1,13 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import LanguageSelector from './LanguageSelector';
 import Image from 'next/image';
-import { useState, useEffect } from 'react';
 
 export default function Hero() {
   const t = useTranslations('hero');
-  const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
-
-  useEffect(() => {
-    const weddingDate = new Date('2026-07-11T13:00:00');
-
-    const calculateTimeLeft = () => {
-      const now = new Date();
-      const difference = weddingDate.getTime() - now.getTime();
-
-      if (difference > 0) {
-        setTimeLeft({
-          days: Math.floor(difference / (1000 * 60 * 60 * 24)),
-          hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
-          minutes: Math.floor((difference / 1000 / 60) % 60),
-          seconds: Math.floor((difference / 1000) % 60)
-        });
-      }
-    };
-
-    calculateTimeLeft();
-    const timer = setInterval(calculateTimeLeft, 1000);
-
-    return () => clearInterval(timer);
-  }, []);
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-white">
-      <div className="absolute top-8 right-8 z-50">
-        <LanguageSelector />
-      </div>
-
+    <section id="hero" className="relative min-h-screen flex items-center justify-center bg-white pt-20">
       <div className="relative z-10 text-center px-4 py-20 max-w-4xl mx-auto">
         <div className="mb-12">
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-script mb-6 text-accent">
@@ -66,9 +36,6 @@ export default function Hero() {
         <div className="space-y-4 mb-16">
           <p className="text-2xl md:text-3xl font-serif text-gray-800">
             {t('date')}
-          </p>
-          <p className="text-base md:text-lg text-accent font-light">
-            {t('countdown', { days: timeLeft.days, hours: timeLeft.hours, minutes: timeLeft.minutes, seconds: timeLeft.seconds })}
           </p>
           <p className="text-lg md:text-xl text-gray-600">
             {t('venue')}

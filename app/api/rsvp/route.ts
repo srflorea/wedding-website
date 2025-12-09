@@ -36,25 +36,32 @@ export async function POST(request: Request) {
       url: airtableUrl
     });
 
+    // Build fields object, only including Arrival Day if it has a valid value
+    const fields: Record<string, any> = {
+      Name: name || '',
+      Guests: attending === 'yes' ? Number(guests) : 0,
+      'Guest Names': guestNames || '',
+      Attending: attending,
+      'Dietary Requirements': dietary || '',
+      'Song Suggestion': songSuggestion || '',
+      Message: message || '',
+      'Submitted At': new Date().toISOString().split('T')[0],
+    };
+
+    // Only add Arrival Day if it has a valid value
+    if (arrivalDay === 'friday') {
+      fields['Arrival Day'] = 'Friday';
+    } else if (arrivalDay === 'saturday') {
+      fields['Arrival Day'] = 'Saturday';
+    }
+
     const airtableResponse = await fetch(airtableUrl, {
       method: 'POST',
       headers: {
         Authorization: `Bearer ${AIRTABLE_API_KEY}`,
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({
-        fields: {
-          Name: name || '',
-          Guests: attending === 'yes' ? Number(guests) : 0,
-          'Guest Names': guestNames || '',
-          Attending: attending,
-          'Arrival Day': arrivalDay === 'friday' ? 'Friday' : arrivalDay === 'saturday' ? 'Saturday' : '',
-          'Dietary Requirements': dietary || '',
-          'Song Suggestion': songSuggestion || '',
-          Message: message || '',
-          'Submitted At': new Date().toISOString().split('T')[0],
-        },
-      }),
+      body: JSON.stringify({ fields }),
     });
 
     if (!airtableResponse.ok) {

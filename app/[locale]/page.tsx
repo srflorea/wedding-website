@@ -1,3 +1,4 @@
+import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import OurStory from '@/components/OurStory';
 import Location from '@/components/Location';
@@ -9,6 +10,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen">
+      <Header />
       <Hero />
       <OurStory />
       <Location />

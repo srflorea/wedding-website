@@ -10,7 +10,7 @@
     "date": "11 Iulie 2026",
     "countdown": "{days} zile, {hours} ore, {minutes} minute și {seconds} secunde până la ziua noastră specială!",
     "venue": "Mlýn Davídkov, Praga",
-    "rsvpDeadline": "Vă rugăm să confirmați prezența înainte de 28 februarie 2026"
+    "rsvpDeadline": "Vă rugăm să confirmați prezența până la 28 februarie 2026"
   },
   "countdown": {
     "title": "Numărătoare Inversă până în Ziua Mare",
@@ -36,13 +36,13 @@
     "fromAirport": "De la Aeroport",
     "fromAirportDetails": "Aeroportul Václav Havel Praga (PRG) este cel mai apropiat aeroport internațional, la aproximativ 30 km de locație. Permiteți aproximativ 30-40 de minute pentru călătorie.",
     "transportation": "Transport",
-    "transportationDetails": "Pentru cei care au nevoie de transport, vom avea un microbuz care va face curse între centrul Pragăi, aeroport și locație vineri după-amiază și sâmbătă dimineața. Asigurați-vă că ne anunțați din timp despre planurile voastre. Dacă doriți mai multă flexibilitate, puteți veni cu mașina (personală sau închiriată).",
+    "transportationDetails": "Pentru cei care zboară și au nevoie de transport de la aeroport, vom avea un microbuz care va face curse între aeroport și locație vineri după-amiază și sâmbătă dimineața. Asigurați-vă că ne anunțați din timp despre planurile voastre. Pentru mai multă flexibilitate în a explora frumoasa natură cehă în ritmul vostru, vă recomandăm să închiriați o mașină de la aeroport.",
     "accommodation": "Cazare",
-    "accommodationDetails": "Vom oferi cazare sâmbătă seara la locație. Vom fi acolo începând de vineri, așa că dacă doriți să vă alăturați nouă și vineri, vă rugăm să ne anunțați și vom aranja cazare pentru voi."
+    "accommodationDetails": "Vom oferi cazare sâmbătă seara la locație. Vom fi acolo începând de vineri, așa că dacă doriți să vă alăturați nouă și vineri, vă rugăm să ne anunțați și vom aranja cazare pentru voi. Parcarea este disponibilă la locație pentru toată lumea."
   },
   "rsvp": {
     "title": "Confirmă Prezența",
-    "description": "Vă rugăm să ne anunțați înainte de 28 februarie dacă puteți să vă alăturați nouă în ziua noastră specială",
+    "description": "Vă rugăm să ne anunțați până la 28 februarie dacă puteți să vă alăturați nouă în ziua noastră specială",
     "name": "Nume Complet",
     "email": "Adresă Email",
     "guests": "Număr de Invitați",

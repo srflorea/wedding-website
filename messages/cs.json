@@ -10,7 +10,7 @@
     "date": "11. července 2026",
     "countdown": "{days} dní, {hours} hodin, {minutes} minut a {seconds} sekund do našeho velkého dne!",
     "venue": "Mlýn Davídkov, Praha",
-    "rsvpDeadline": "Potvrďte prosím účast před 28. únorem 2026"
+    "rsvpDeadline": "Potvrďte prosím účast do 28. února 2026"
   },
   "countdown": {
     "title": "Odpočítávání do Velkého Dne",
@@ -36,13 +36,13 @@
     "fromAirport": "Z Letiště",
     "fromAirportDetails": "Letiště Václava Havla Praha (PRG) je nejbližší mezinárodní letiště, přibližně 30 km od místa konání. Cesta trvá přibližně 30-40 minut.",
     "transportation": "Doprava",
-    "transportationDetails": "Pro ty, kteří potřebují dopravu, budeme mít minivan, který pojede mezi centrem Prahy, letištěm a místem konání v pátek odpoledne a v sobotu ráno. Jen se ujistěte, že nám předem dáte vědět o svých plánech. Pokud chcete větší flexibilitu, můžete přijet autem (vlastním nebo pronajatým).",
+    "transportationDetails": "Pro ty, kteří přilétají a potřebují dopravu z letiště, budeme mít minivan, který pojede mezi letištěm a místem konání v pátek odpoledne a v sobotu ráno. Jen se ujistěte, že nám předem dáte vědět o svých plánech. Pro větší flexibilitu a možnost objevovat krásnou českou krajinu vlastním tempem doporučujeme pronájem auta na letišti.",
     "accommodation": "Ubytování",
-    "accommodationDetails": "Poskytneme ubytování v sobotu večer na místě konání. Budeme tam od pátku, takže pokud se k nám chcete připojit i v pátek, dejte nám prosím vědět a můžeme pro vás zajistit ubytování."
+    "accommodationDetails": "Poskytneme ubytování v sobotu večer na místě konání. Budeme tam od pátku, takže pokud se k nám chcete připojit i v pátek, dejte nám prosím vědět a můžeme pro vás zajistit ubytování. Parkování je k dispozici na místě konání pro všechny."
   },
   "rsvp": {
     "title": "Potvrdit Účast",
-    "description": "Dejte nám prosím vědět před 28. únorem, zda se k nám můžete připojit v náš velký den",
+    "description": "Dejte nám prosím vědět do 28. února, zda se k nám můžete připojit v náš velký den",
     "name": "Celé Jméno",
     "email": "Email",
     "guests": "Počet Hostů",
