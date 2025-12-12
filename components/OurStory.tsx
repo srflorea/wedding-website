@@ -16,6 +16,11 @@ export default function OurStory() {
     { image: '/images/story/5.jpg', text: t('slides.4') },
     { image: '/images/story/6.jpg', text: t('slides.5') },
     { image: '/images/story/8.jpg', text: t('slides.6') },
+    { image: '/images/story/9.jpg', text: t('slides.7') },
+    { image: '/images/story/10.jpg', text: t('slides.8') },
+    { image: '/images/story/11.jpg', text: t('slides.9') },
+    { image: '/images/story/12.jpg', text: t('slides.10') },
+    { image: '/images/story/13.jpg', text: t('slides.10') },
   ];
 
   // Auto-advance slides every 15 seconds
@@ -125,7 +130,7 @@ export default function OurStory() {
                   />
                 ))}
               </div>
-              <span className="text-sm text-gray-500 font-light">
+              <span key={currentSlide} className="text-sm text-gray-500 font-light">
                 {currentSlide + 1} / {slides.length}
               </span>
             </div>
