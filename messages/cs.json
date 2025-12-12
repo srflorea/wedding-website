@@ -21,7 +21,16 @@
   },
   "story": {
     "title": "Náš Příběh",
-    "content": "Dvě srdce z různých světů - Rumunska a České republiky - se potkala a vytvořila něco krásného. Naše společná cesta byla plná lásky, smíchu a nespočetných dobrodružství napříč hranicemi. Nyní jsme připraveni začít další kapitolu našich životů společně."
+    "content": "Dvě srdce z různých světů - Rumunska a České republiky - se potkala a vytvořila něco krásného. Naše společná cesta byla plná lásky, smíchu a nespočetných dobrodružství napříč hranicemi. Nyní jsme připraveni začít další kapitolu našich životů společně.",
+    "slides": [
+      "Příběh Nových Evropanů",
+      "Bylo nebylo, v autobuse směřujícím do Evropského parlamentu ve Štrasburku se pohledný rumunský kluk setkal se sladkou českou dívkou. A začali se mít moc rádi, protože občas se dějí ÚŽAAAAAASNÉ věci...",
+      "Velmi brzy Štefan získal Kristýnino srdce, protože byl moc milý, laskavý, vtipný, chytrý a samozřejmě nádherný... Byl jako okouzlující princ z nějaké pohádky... Byl statečný a pomáhal lidem v nebezpečí nebo v nouzi. Například bránil praktikanta Ombudsmana před albánským blbcem...",
+      "Velmi brzy se znovu setkali v baru Konrad a začala jejich krásná cesta...",
+      "Nebylo to vždy snadné... Ale i když se občas hádali a někdy měli pocit, že si nerozumějí...",
+      "... měli se moc rádi a vážili si sebe navzájem... a opravdu rádi trávili čas spolu...",
+      "Štefan brzy zjistil, že Kristýna není obyčejná holka"
+    ]
   },
   "location": {
     "title": "Místo & Doprava",
