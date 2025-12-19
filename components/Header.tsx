@@ -7,6 +7,7 @@ import { useState, useEffect } from 'react';
 export default function Header() {
   const t = useTranslations('home');
   const countdown = useTranslations('countdown');
+  const nav = useTranslations('nav');
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -50,47 +51,49 @@ export default function Header() {
         }`}
       >
         <div className="container mx-auto px-4">
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between gap-4">
             {/* Left: Names */}
-            <div className="flex-1">
+            <div className="flex-1 lg:flex-shrink-0">
               <a href="#home" className="text-xl md:text-2xl font-script text-accent hover:text-accent/80 transition-colors">
                 Ștefan & Kristýna
               </a>
             </div>
 
-            {/* Center: Countdown - Desktop only */}
-            <div className="hidden lg:flex flex-1 justify-center">
-              <div className="flex items-center gap-4 text-xs font-light text-gray-600">
-                <div className="text-center">
-                  <div className="text-lg font-bold text-accent">{timeLeft.days}</div>
-                  <div className="uppercase tracking-wider">{countdown('days')}</div>
-                </div>
-                <div className="text-gray-400">:</div>
-                <div className="text-center">
-                  <div className="text-lg font-bold text-accent">{timeLeft.hours}</div>
-                  <div className="uppercase tracking-wider">{countdown('hours')}</div>
-                </div>
-                <div className="text-gray-400">:</div>
-                <div className="text-center">
-                  <div className="text-lg font-bold text-accent">{timeLeft.minutes}</div>
-                  <div className="uppercase tracking-wider">{countdown('minutes')}</div>
-                </div>
-                <div className="text-gray-400">:</div>
-                <div className="text-center">
-                  <div className="text-lg font-bold text-accent">{timeLeft.seconds}</div>
-                  <div className="uppercase tracking-wider">{countdown('seconds')}</div>
-                </div>
+            {/* Center: Countdown (desktop only) */}
+            <div className="hidden lg:flex items-center gap-3 text-xs font-light text-gray-600">
+              <div className="text-center">
+                <div className="text-base font-bold text-accent">{timeLeft.days}</div>
+                <div className="uppercase tracking-wider text-[10px]">{countdown('days')}</div>
+              </div>
+              <div className="text-gray-400">:</div>
+              <div className="text-center">
+                <div className="text-base font-bold text-accent">{timeLeft.hours}</div>
+                <div className="uppercase tracking-wider text-[10px]">{countdown('hours')}</div>
+              </div>
+              <div className="text-gray-400">:</div>
+              <div className="text-center">
+                <div className="text-base font-bold text-accent">{timeLeft.minutes}</div>
+                <div className="uppercase tracking-wider text-[10px]">{countdown('minutes')}</div>
+              </div>
+              <div className="text-gray-400">:</div>
+              <div className="text-center">
+                <div className="text-base font-bold text-accent">{timeLeft.seconds}</div>
+                <div className="uppercase tracking-wider text-[10px]">{countdown('seconds')}</div>
               </div>
             </div>
 
-            {/* Right: RSVP and Language selector */}
-            <div className="flex-1 flex items-center justify-end gap-4">
+            {/* Center (mobile) / Center-Right (desktop): RSVP button */}
+            <div className="flex-1 lg:flex-shrink-0 flex justify-center lg:justify-end">
               <a
                 href="#rsvp"
-                className="border-2 border-gray-800 text-gray-800 px-6 py-2 uppercase tracking-wider font-bold text-xs transition-all duration-300 hover:bg-gray-800 hover:text-white"
+                className="border-2 border-gray-800 text-gray-800 px-3 md:px-6 py-2 uppercase tracking-wide md:tracking-wider font-bold text-[10px] md:text-xs transition-all duration-300 hover:bg-gray-800 hover:text-white whitespace-nowrap"
               >
-                RSVP
+                {nav('rsvp')}
               </a>
+            </div>
+
+            {/* Right: Language selector */}
+            <div className="flex-1 lg:flex-shrink-0 flex items-center justify-end">
               <LanguageSelector />
             </div>
           </div>

@@ -21,11 +21,12 @@
   },
   "story": {
     "title": "Povestea Noastră",
-    "content": "Două inimi din lumi diferite - România și Republica Cehă - s-au întâlnit și au creat ceva frumos. Călătoria noastră împreună a fost plină de dragoste, râsete și nenumărate aventuri peste granițe. Acum suntem gata să începem următorul capitol al vieților noastre împreună.",
+    "content": "Două inimi din lumi diferite — România și Republica Cehă — s-au întâlnit și au creat ceva cu adevărat frumos. Călătoria noastră a fost modelată de dragoste, râsete și nenumărate aventuri peste granițe. Acum, suntem gata să începem următorul capitol al vieților noastre împreună.",
+    "clickToView": "Apasă și descoperă povestea noastră",
     "slides": [
       "Povestea Noilor Europeni",
-      "A fost odată ca niciodată, într-un autobuz spre Parlamentul European din Strasbourg, un băiat român chipeș a cunoscut o fată cehé drăguță. Și au început să le placă foarte mult unul de celălalt pentru că uneori se întâmplă lucruri UIMITOAAAAARE...",
-      "Foarte curând, Ștefan a cucerit inima Kristýnei pentru că era foarte drăguț, amabil, amuzant, deștept și, desigur, superb... Era ca un prinț fermecător dintr-un basm... Era curajos și ajuta oamenii în pericol sau în nevoie. De exemplu, a apărat un stagiar al Ombudsmanului de un tocilar albanez...",
+      "A fost odată ca niciodată, într-un autobuz spre Parlamentul European din Strasbourg, un băiat român chipeș și o fată cehă drăguță. Și au început să le placă foarte mult unul de celălalt pentru că uneori se întâmplă lucruri UIMITOAAAAARE...",
+      "Foarte curând, Ștefan a cucerit inima Kristýnei pentru că era foarte drăguț, amabil, amuzant, deștept și, desigur, superb... Era ca un prinț fermecător dintr-un basm... Era curajos și ajuta oamenii în pericol sau în nevoie.",
       "Foarte curând s-au întâlnit din nou în barul Konrad și frumoasa lor călătorie a început...",
       "Nu a fost întotdeauna ușor... Dar deși se certau din când în când și uneori simțeau că nu se înțeleg...",
       "... își plăceau și se apreciau atât de mult... și le plăcea cu adevărat să petreacă timp împreună...",
@@ -33,7 +34,16 @@
       "Și Kristýna a descoperit cât de special este Ștefan și cât de fericită este cu el...",
       "Apoi, au fost separați și au descoperit cât de mult au nevoie unul de celălalt...",
       "... așa că, într-o zi, Ștefan a spus: \"Aș vrea cu adevărat să locuiesc cu tine.\". Și Kristýna a spus: \"Și eu\"",
-      "Și au petrecut atât de multe momente UIMITOAAAAARE împreună..."
+      "Și au petrecut atât de multe momente UIMITOAAAAARE împreună...",
+      "Prima vacanță împreună - Asia 2018",
+      "Prima tabără de vară împreună - Šteflovka 2019",
+      "Cu dragul lor membru de familie cu patru labe, Max - România 2020",
+      "Excursie cu mașina cu Max - Slovenia 2021",
+      "O întrebare, un răspuns pentru o eternitate - Lipno 2022",
+      "O minune s-a alăturat familiei lor. Mulțumim că i-ai ales, Olivia! - Hořovice 2023",
+      "Prima vacanță cu Olivia - Skiathos 2024",
+      "Experimentând un nou tip de petrecere: la grădiniță - București 2025",
+      "Și au trăit fericiți până la adânci bătrâneți!"
     ]
   },
   "location": {

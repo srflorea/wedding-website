@@ -5,6 +5,7 @@ import Image from 'next/image';
 
 export default function Home() {
   const t = useTranslations('home');
+  const nav = useTranslations('nav');
 
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center bg-white pt-20">
@@ -47,7 +48,7 @@ export default function Home() {
             href="#rsvp"
             className="group inline-block relative border-2 border-gray-800 text-gray-800 px-12 py-4 uppercase tracking-[0.25em] font-bold text-sm transition-all duration-300 hover:bg-gray-800 hover:text-white"
           >
-            RSVP
+            {nav('rsvp')}
           </a>
           <p className="mt-4 text-sm text-gray-600 font-light">
             {t('rsvpDeadline')}

@@ -2,7 +2,7 @@
   "nav": {
     "ourStory": "Our Story",
     "location": "Location & Travel",
-    "rsvp": "RSVP"
+    "rsvp": "Confirm Attendance"
   },
   "home": {
     "title": "Ștefan Răzvan & Kristýna",
@@ -10,7 +10,7 @@
     "date": "July 11th, 2026",
     "countdown": "{days} days, {hours} hours, {minutes} minutes and {seconds} seconds until our special day!",
     "venue": "Mlýn Davídkov, Prague",
-    "rsvpDeadline": "Please RSVP until February 28th, 2026"
+    "rsvpDeadline": "Please confirm your attendance until February 28th, 2026"
   },
   "countdown": {
     "title": "Countdown to the Big Day",
@@ -21,11 +21,12 @@
   },
   "story": {
     "title": "Our Story",
-    "content": "Two hearts from different worlds - Romania and Czech Republic - found each other and created something beautiful. Our journey together has been filled with love, laughter, and countless adventures across borders. Now we're ready to start the next chapter of our lives together.",
+    "content": "Two hearts from different worlds — Romania and the Czech Republic — found one another and created something truly beautiful. Our journey has been shaped by love, laughter, and countless adventures across borders. Now, we are ready to begin the next chapter of our lives together.",
+    "clickToView": "Click and check our story",
     "slides": [
       "The New-Europeans' Story",
       "Once upon a time, in a bus to the European Parliament in Strasbourg, a handsome Romanian guy met a cute Czech girl. And they started to like each other a lot because sometimes AMAAAAAAAZING things happen...",
-      "Very soon Stefan won Kristyna's heart because he was very nice, kind, funny, smart and, of course, gorgeus... He was like a charming prince from some fairy tale... He was brave and he was helping people in danger or in need. For example, he defended an Ombudsman's trainee from an Albanian jerk...",
+      "Very soon Stefan won Kristyna's heart because he was very nice, kind, funny, smart and, of course, gorgeus... He was like a charming prince from some fairy tale... He was brave and he was helping people in danger or in need.",
       "Very soon they met again in Konrad bar and their beautiful journey has started...",
       "It wasn't always easy... But although they were fighting from time to time and sometimes they felt like they did not understand each other...",
       "... they liked and appreciated each other so much... and they really liked spending time together...",
@@ -33,7 +34,16 @@
       "And Kristyna found out how special Stefan is and how happy she is with him...",
       "After, they have been separated and they found out how much they need each other...",
       "... so, one day Stefan said: \"I would really live with you.\". And Kristyna said: \"Me too\"",
-      "And they spent so many AMAAAZING moment together..."
+      "And they spent so many AMAAAZING moment together...",
+      "First vacation together - Asia 2018",
+      "First summer camp together - Šteflovka 2019",
+      "With their dear four-legged family member, Max - Romania 2020",
+      "Road trip with Max - Slovenia 2021",
+      "One question, one answer for an eternity - Lipno 2022",
+      "A wonder joined their family. Thank you for choosing them, Olivia! - Hořovice 2023",
+      "First vacation with Olivia - Skiathos 2024",
+      "Experiecing new type of partying: at the kindergarden - Bucharest 2025",
+      "And they have lived happily ever after!"
     ]
   },
   "location": {
@@ -54,7 +64,7 @@
     "accommodationDetails": "We will provide accommodation on Saturday night at the venue. We'll be there starting Friday, so if you'd like to join us on Friday as well, please let us know and we can arrange accommodation for you. Parking is available at the venue for everyone."
   },
   "rsvp": {
-    "title": "RSVP",
+    "title": "Confirm Attendance",
     "description": "Please let us know until 28th of February if you can join us for our special day",
     "name": "Full Name",
     "email": "Email Address",
@@ -73,8 +83,8 @@
     "songSuggestionPlaceholder": "Song title or artist",
     "message": "Message for Us",
     "messagePlaceholder": "Share your thoughts with us",
-    "submit": "Submit RSVP",
-    "success": "Thank you for your RSVP!",
+    "submit": "Submit Confirmation",
+    "success": "Thank you for your confirmation!",
     "error": "Please fill in all required fields"
   },
   "footer": {

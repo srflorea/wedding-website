@@ -21,11 +21,12 @@
   },
   "story": {
     "title": "Náš Příběh",
-    "content": "Dvě srdce z různých světů - Rumunska a České republiky - se potkala a vytvořila něco krásného. Naše společná cesta byla plná lásky, smíchu a nespočetných dobrodružství napříč hranicemi. Nyní jsme připraveni začít další kapitolu našich životů společně.",
+    "content": "Dvě srdce z různých světů — Rumunska a České republiky — se setkala a vytvořila něco skutečně krásného. Naše cesta byla formována láskou, smíchem a nespočetnými dobrodružstvími napříč hranicemi. Nyní jsme připraveni začít další kapitolu našich životů společně.",
+    "clickToView": "Klikněte a podívejte se na náš příběh",
     "slides": [
       "Příběh Nových Evropanů",
       "Bylo nebylo, v autobuse směřujícím do Evropského parlamentu ve Štrasburku se pohledný rumunský kluk setkal se sladkou českou dívkou. A začali se mít moc rádi, protože občas se dějí ÚŽAAAAAASNÉ věci...",
-      "Velmi brzy Štefan získal Kristýnino srdce, protože byl moc milý, laskavý, vtipný, chytrý a samozřejmě nádherný... Byl jako okouzlující princ z nějaké pohádky... Byl statečný a pomáhal lidem v nebezpečí nebo v nouzi. Například bránil praktikanta Ombudsmana před albánským blbcem...",
+      "Velmi brzy Štefan získal Kristýnino srdce, protože byl moc milý, laskavý, vtipný, chytrý a samozřejmě nádherný... Byl jako okouzlující princ z nějaké pohádky... Byl statečný a pomáhal lidem v nebezpečí nebo v nouzi.",
       "Velmi brzy se znovu setkali v baru Konrad a začala jejich krásná cesta...",
       "Nebylo to vždy snadné... Ale i když se občas hádali a někdy měli pocit, že si nerozumějí...",
       "... měli se moc rádi a vážili si sebe navzájem... a opravdu rádi trávili čas spolu...",
@@ -33,7 +34,16 @@
       "A Kristýna zjistila, jak výjimečný Štefan je a jak je s ním šťastná...",
       "Poté byli na chvíli odděleni a zjistili, jak moc se navzájem potřebují...",
       "... a tak jednoho dne Štefan řekl: \"Opravdu bych s tebou chtěl žít.\". A Kristýna řekla: \"Já taky\"",
-      "A strávili spolu tolik ÚŽAAAAAASNÝCH chvil..."
+      "A strávili spolu tolik ÚŽAAAAAASNÝCH chvil...",
+      "První dovolená společně - Asie 2018",
+      "První letní tábor společně - Šteflovka 2019",
+      "S jejich milovaným čtyřnohým členem rodiny, Maxem - Rumunsko 2020",
+      "Roadtrip s Maxem - Slovinsko 2021",
+      "Jedna otázka, jedna odpověď na věčnost - Lipno 2022",
+      "Do jejich rodiny se připojil zázrak. Děkujeme, že jsi si je vybrala, Olivio! - Hořovice 2023",
+      "První dovolená s Olivií - Skiathos 2024",
+      "Zažíváme nový typ oslavy: ve školce - Bukurešť 2025",
+      "A žili šťastně až do smrti!"
     ]
   },
   "location": {
