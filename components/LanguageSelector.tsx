@@ -10,8 +10,10 @@ const languageNames = {
   cs: 'CS'
 } as const;
 
+type Locale = keyof typeof languageNames;
+
 export default function LanguageSelector() {
-  const locale = useLocale();
+  const locale = useLocale() as Locale;
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
@@ -63,20 +65,23 @@ export default function LanguageSelector() {
         <div className="absolute right-0 mt-2 bg-white rounded-lg shadow-lg border border-gray-200 overflow-hidden z-50 min-w-[80px]">
           {routing.locales
             .filter(loc => loc !== locale)
-            .map((loc) => (
-              <button
-                key={loc}
-                type="button"
-                onClick={() => {
-                  handleLanguageChange(loc);
-                  setIsOpen(false);
-                }}
-                className="w-full px-4 py-2 text-left uppercase tracking-widest text-xs font-bold text-gray-600 hover:bg-gray-50 hover:text-accent transition-colors"
-                aria-label={`Switch to ${languageNames[loc]}`}
-              >
-                {languageNames[loc]}
-              </button>
-            ))}
+            .map((loc) => {
+              const typedLoc = loc as Locale;
+              return (
+                <button
+                  key={loc}
+                  type="button"
+                  onClick={() => {
+                    handleLanguageChange(loc);
+                    setIsOpen(false);
+                  }}
+                  className="w-full px-4 py-2 text-left uppercase tracking-widest text-xs font-bold text-gray-600 hover:bg-gray-50 hover:text-accent transition-colors"
+                  aria-label={`Switch to ${languageNames[typedLoc]}`}
+                >
+                  {languageNames[typedLoc]}
+                </button>
+              );
+            })}
         </div>
       )}
     </div>
