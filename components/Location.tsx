@@ -54,7 +54,7 @@ export default function Location() {
               rel="noopener noreferrer"
               className="inline-block border-2 border-gray-800 text-gray-800 px-8 md:px-12 py-4 uppercase tracking-[0.15em] md:tracking-[0.25em] font-bold text-xs md:text-sm transition-all duration-300 hover:bg-gray-800 hover:text-white"
             >
-              Open in Google Maps
+              {t('openInMaps')}
             </a>
           </div>
         </div>
@@ -92,7 +92,7 @@ export default function Location() {
         </div>
 
         <div className="bg-white border border-accent/20 p-10">
-          <div className="text-5xl mb-6">🏨</div>
+          <div className="text-5xl mb-6">🏠</div>
           <h3 className="text-2xl font-serif text-gray-800 mb-5">
             {t('accommodation')}
           </h3>
