@@ -202,10 +202,11 @@ export default function OurStory() {
 
               {/* Image slideshow */}
               <div
-                className="relative w-full max-w-5xl h-[50vh] md:h-[60vh]"
+                className="relative w-full max-w-5xl h-[50vh] md:h-[60vh] cursor-pointer"
                 onTouchStart={handleTouchStart}
                 onTouchMove={handleTouchMove}
                 onTouchEnd={handleTouchEnd}
+                onClick={goToNext}
               >
                 {/* Slides */}
                 {slides.map((slide, index) => (
@@ -227,7 +228,7 @@ export default function OurStory() {
 
                 {/* Navigation arrows */}
                 <button
-                  onClick={goToPrevious}
+                  onClick={(e) => { e.stopPropagation(); goToPrevious(); }}
                   className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white text-gray-800 p-3 rounded-full transition-all duration-300 z-10"
                   aria-label="Previous slide"
                 >
@@ -236,7 +237,7 @@ export default function OurStory() {
                   </svg>
                 </button>
                 <button
-                  onClick={goToNext}
+                  onClick={(e) => { e.stopPropagation(); goToNext(); }}
                   className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white text-gray-800 p-3 rounded-full transition-all duration-300 z-10"
                   aria-label="Next slide"
                 >
@@ -252,7 +253,7 @@ export default function OurStory() {
                   {slides.map((_, index) => (
                     <button
                       key={index}
-                      onClick={() => goToSlide(index)}
+                      onClick={(e) => { e.stopPropagation(); goToSlide(index); }}
                       className={`w-3 h-3 rounded-full transition-all duration-300 ${
                         index === currentSlide
                           ? 'bg-white w-8'
