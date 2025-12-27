@@ -99,12 +99,6 @@ export default function RSVPForm() {
           </div>
         ) : (
           <form onSubmit={handleSubmit} className="bg-white border border-accent/20 p-10 md:p-12">
-            {error && (
-              <div className="mb-8 p-4 bg-red-50 border border-red-300 text-red-800 text-sm">
-                {error}
-              </div>
-            )}
-
             <div className="mb-8">
               <label className="block text-gray-800 font-bold text-sm uppercase tracking-[0.15em] mb-4">
                 {t('attending')}
@@ -266,6 +260,12 @@ export default function RSVPForm() {
                   />
                 </div>
               </>
+            )}
+
+            {error && (
+              <div className="mb-4 p-4 bg-red-50 border border-red-300 text-red-800 text-sm">
+                {error}
+              </div>
             )}
 
             <button
