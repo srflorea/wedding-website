@@ -7,7 +7,7 @@
   "home": {
     "title": "Ștefan Răzvan & Kristýna",
     "subtitle": "\"Vom spune DA\"",
-    "date": "11 Iulie 2026",
+    "date": "11 iulie 2026",
     "countdown": "{days} zile, {hours} ore, {minutes} minute și {seconds} secunde până la ziua noastră specială!",
     "venue": "Mlýn Davídkov, Praga",
     "rsvpDeadline": "Vă rugăm să confirmați prezența până la 28 februarie 2026"
@@ -26,21 +26,22 @@
     "slides": [
       "Povestea Noilor Europeni",
       "A fost odată ca niciodată, într-un autobuz spre Parlamentul European din Strasbourg, un băiat român chipeș și o fată cehă drăguță. Și au început să le placă foarte mult unul de celălalt pentru că uneori se întâmplă lucruri UIMITOAAAAARE...",
-      "Foarte curând, Ștefan a cucerit inima Kristýnei pentru că era foarte drăguț, amabil, amuzant, deștept și, desigur, superb... Era ca un prinț fermecător dintr-un basm... Era curajos și ajuta oamenii în pericol sau în nevoie.",
+      "Foarte curând, Ștefan a cucerit inima Kristýnei pentru că era foarte drăguț, amabil, amuzant, și, desigur, deștept. Era ca un prinț fermecător dintr-un basm... Era curajos și ajuta oamenii în pericol sau în nevoie.",
       "Foarte curând s-au întâlnit din nou în barul Konrad și frumoasa lor călătorie a început...",
       "Nu a fost întotdeauna ușor... Dar deși se certau din când în când și uneori simțeau că nu se înțeleg...",
-      "... își plăceau și se apreciau atât de mult... și le plăcea cu adevărat să petreacă timp împreună...",
+      "... se plăceau și se apreciau atât de mult... și le plăcea cu adevărat să petreacă timp împreună...",
       "Ștefan a descoperit curând că Kristýna nu este o fată obișnuită",
       "Și Kristýna a descoperit cât de special este Ștefan și cât de fericită este cu el...",
       "Apoi, au fost separați și au descoperit cât de mult au nevoie unul de celălalt...",
       "... așa că, într-o zi, Ștefan a spus: \"Aș vrea cu adevărat să locuiesc cu tine.\". Și Kristýna a spus: \"Și eu\"",
       "Și au petrecut atât de multe momente UIMITOAAAAARE împreună...",
+      "Prima noapte împreună într-un cort - Munții Carpați 2017",
       "Prima vacanță împreună - Asia 2018",
       "Prima tabără de vară împreună - Šteflovka 2019",
       "Cu dragul lor membru de familie cu patru labe, Max - România 2020",
       "Excursie cu mașina cu Max - Slovenia 2021",
       "O întrebare, un răspuns pentru o eternitate - Lipno 2022",
-      "O minune s-a alăturat familiei lor. Mulțumim că i-ai ales, Olivia! - Hořovice 2023",
+      "O minune s-a alăturat familiei lor. Mulțumim că ne-ai ales, Olivia! - Hořovice 2023",
       "Prima vacanță cu Olivia - Skiathos 2024",
       "Experimentând un nou tip de petrecere: la grădiniță - București 2025",
       "Și au trăit fericiți până la adânci bătrâneți!"
@@ -88,6 +89,7 @@
     "error": "Te rugăm să completezi toate câmpurile obligatorii"
   },
   "footer": {
-    "seeYouThere": "Abia așteptăm să sărbătorim împreună cu voi!"
+    "seeYouThere": "Abia așteptăm să sărbătorim împreună cu voi!",
+    "date": "11 iulie 2026"
   }
 }

@@ -20,7 +20,7 @@ export default function Page() {
         <div className="container mx-auto px-4 text-center">
           <p className="text-lg font-light text-gray-700 mb-3">{t('seeYouThere')}</p>
           <p className="text-3xl font-script text-accent mb-2">Ștefan & Kristýna</p>
-          <p className="text-xs uppercase tracking-[0.2em] text-gray-500">July 11, 2026</p>
+          <p className="text-xs uppercase tracking-[0.2em] text-gray-500">{t('date')}</p>
         </div>
       </footer>
     </main>
