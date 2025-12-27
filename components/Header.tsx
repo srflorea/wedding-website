@@ -55,7 +55,7 @@ export default function Header() {
             {/* Left: Names */}
             <div className="flex-1 lg:flex-shrink-0">
               <a href="#home" className="text-xl md:text-2xl font-script text-accent hover:text-accent/80 transition-colors">
-                Ștefan & Kristýna
+                {t('names')}
               </a>
             </div>
 

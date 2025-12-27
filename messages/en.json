@@ -5,7 +5,8 @@
     "rsvp": "Confirm Attendance"
   },
   "home": {
-    "title": "Ștefan Răzvan & Kristýna",
+    "names": "Ștefan & Kristýna",
+    "title": "Ștefan & Kristýna",
     "subtitle": "\"We will say YES\"",
     "date": "July 11th, 2026",
     "countdown": "{days} days, {hours} hours, {minutes} minutes and {seconds} seconds until our special day!",
@@ -21,7 +22,7 @@
   },
   "story": {
     "title": "Our Story",
-    "content": "Two hearts from different worlds — Romania and the Czech Republic — found one another and created something truly beautiful. Our journey has been shaped by love, laughter, and countless adventures across borders. Now, we are ready to begin the next chapter of our lives together.",
+    "content": "Once upon a time, in a bus to the European Parliament in Strasbourg, a handsome Romanian guy met a cute Czech girl. And they started to like each other a lot because sometimes AMAAAAAAAZING things happen...\n\nRead the full story in the slideshow bellow. Enjoy! :)",
     "clickToView": "Click and check our story",
     "slides": [
       "The New-Europeans' Story",

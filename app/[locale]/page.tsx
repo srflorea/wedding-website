@@ -7,6 +7,7 @@ import { useTranslations } from 'next-intl';
 
 export default function Page() {
   const t = useTranslations('footer');
+  const home = useTranslations('home');
 
   return (
     <main className="min-h-screen">
@@ -19,7 +20,7 @@ export default function Page() {
       <footer className="bg-white border-t border-gray-200 py-12">
         <div className="container mx-auto px-4 text-center">
           <p className="text-lg font-light text-gray-700 mb-3">{t('seeYouThere')}</p>
-          <p className="text-3xl font-script text-accent mb-2">Ștefan & Kristýna</p>
+          <p className="text-3xl font-script text-accent mb-2">{home('names')}</p>
           <p className="text-xs uppercase tracking-[0.2em] text-gray-500">{t('date')}</p>
         </div>
       </footer>

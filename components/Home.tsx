@@ -20,7 +20,7 @@ export default function Home() {
           <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-gray-200 shadow-lg">
             <Image
               src="/images/couple.jpg"
-              alt="Ștefan & Kristýna"
+              alt={t('names')}
               fill
               className="object-cover"
               priority

@@ -35,17 +35,6 @@ export default function OurStory() {
     { image: '/images/story/22.jpg', text: t('slides.20') },
   ];
 
-  // Auto-advance slides only when modal is open
-  useEffect(() => {
-    if (!isModalOpen) return;
-
-    const timer = setInterval(() => {
-      setCurrentSlide((prev) => (prev + 1) % slides.length);
-    }, 15000);
-
-    return () => clearInterval(timer);
-  }, [slides.length, currentSlide, isModalOpen]);
-
   // Reset to first slide when modal closes
   useEffect(() => {
     if (!isModalOpen) {
@@ -138,7 +127,7 @@ export default function OurStory() {
           {t('title')}
         </h2>
         <div className="prose prose-lg max-w-none">
-          <p className="text-gray-600 text-lg md:text-xl leading-relaxed text-center font-light">
+          <p className="text-gray-600 text-lg md:text-xl leading-relaxed text-center font-light whitespace-pre-line">
             {t('content')}
           </p>
         </div>
@@ -198,7 +187,7 @@ export default function OurStory() {
             {/* Slideshow content */}
             <div className="flex-1 flex flex-col items-center justify-center p-4 md:p-8">
               {/* Text above image */}
-              <div className="w-full max-w-5xl mb-4 min-h-[180px] md:min-h-[120px] flex items-center justify-center relative">
+              <div className="w-full max-w-5xl mb-4 min-h-[180px] md:min-h-[200px] flex items-center justify-center relative">
                 {slides.map((slide, index) => (
                   <p
                     key={index}
