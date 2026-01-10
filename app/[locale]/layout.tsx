@@ -6,8 +6,12 @@ import type { Metadata } from 'next';
 import '../globals.css';
 
 export const metadata: Metadata = {
-  title: 'Ștefan & Kristýna - Wedding',
+  title: 'Ștefan Răzvan & Kristyna',
   description: 'Join us for our wedding celebration on July 11th, 2026',
+  openGraph: {
+    title: 'Ștefan Răzvan & Kristyna',
+    description: 'Join us for our wedding celebration on July 11th, 2026',
+  },
 };
 
 export function generateStaticParams() {
